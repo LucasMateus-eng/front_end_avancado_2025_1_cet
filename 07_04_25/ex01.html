@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista 02 - HTML5 - Sistemas para internet</title>
+
+  <style>
+    table,
+    th,
+    td {
+      border: 1px solid black;
+      border-collapse: collapse;
+    }
+
+    thead#especial>tr,
+    th {
+      border: 1px solid red;
+    }
+  </style>
+</head>
+
+<body>
+  <aside>
+    <h2>Problema 02:</h2>
+    <section>
+      <h3>Primeira solução:</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Dia da semana</th>
+            <th>Horário</th>
+            <th>Módulo</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Segunda-feira</td>
+            <td>19:00 - 20:30</td>
+            <td>Introdução ao Desenvolvimento Web</td>
+          </tr>
+          <tr>
+            <td>Terça-feira</td>
+            <td>19:00 - 20:30</td>
+            <td>Lógica de programação</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <hr>
+
+      <h3>Segunda solução:</h3>
+
+      <table>
+        <thead id="especial">
+          <tr>
+            <th>Horários</th>
+            <th colspan="7">Dias da semana</th>
+          </tr>
+          <tr>
+            <th></th>
+            <th>Segunda-feira</th>
+            <th>Terça-feira</th>
+            <th>Quarta-feira</th>
+            <th>Quinta-feira</th>
+            <th>Sexta-feira</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <th>09:00 - 10:00</th>
+            <td>Sistemas embarcados</td>
+            <td></td>
+            <td>Desenvolvimento Web</td>
+            <td></td>
+          </tr>
+          <tr>
+            <th>14:00 - 15:30</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Banco de Dados</td>
+          </tr>
+        </tbody>
+      </table>
+
+    </section>
+  </aside>
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+/* SELETORES BÁSICOS */
+p {
+	color: blue;
+}
+
+.destaque {
+	color: green;
+}
+
+#texto {
+	color: red;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+#div1,
+#div2 {
+	border: 1px solid black;
+}
+
+#div1 {
+	margin: 0 2px 10px 2px;
+	padding: 10px 10px 10px 10px;
+}

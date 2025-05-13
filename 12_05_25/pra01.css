@@ -1,0 +1,29 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background-color: #f5f5f5;
+	padding: 40px;
+}
+
+.card {
+	background-color: darkslategray;
+	width: 300px;
+	padding: 20px;
+	box-shadow: 0 0 10px #ccc;
+}
+
+.name p {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.description p {
+	line-height: 1.6;
+}
+
+.link {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #1a73e8;
+	display: inline-block;
+	margin-top: 10px;
+}

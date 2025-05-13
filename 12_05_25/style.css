@@ -1,0 +1,43 @@
+/* seletor tag */
+p {
+	color: #345511;
+	font-family: "Courier New", Courier, monospace;
+	font-size: 18px;
+	font-style: italic;
+	line-height: 1.5;
+	letter-spacing: 5px;
+	text-align: center;
+	text-transform: capitalize;
+}
+
+a {
+	text-decoration: none;
+}
+
+/* seletor classe */
+.destaque {
+	background-color: #3f6634;
+	opacity: 0.5;
+}
+
+/* seletor id */
+#titulo-principal {
+	font-size: 32px;
+	color: rgba(255, 0, 255, 0.5);
+}
+
+/* seletor universal */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* seletor múltiplo */
+#div-01,
+#div-02,
+#div-03 {
+	border: 8px solid darkblue;
+	margin: 8px;
+	padding: 8px;
+}
